@@ -1,9 +1,10 @@
 #include <iostream>
 #include <stdlib.h> 
 #include <time.h> 
+#include "prob.h"
 using namespace std; 
 
-const int numOfPoints = 1000000000;
+
 
 bool hitCircle(double x,double y)//计算坐标(x,y)的点是否在圆心为(1,1)半径为1的圆中
 {
